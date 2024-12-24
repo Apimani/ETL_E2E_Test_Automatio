@@ -1,0 +1,6 @@
+employee_id,first_name,last_name,department,salary,join_date
+1,John,Doe,Engineering,75000,2020-01-15
+2,Jane,Smith,Marketing,65000,2019-07-10
+3,Mike,Johnson,Engineering,80000,2021-03-12
+4,Susan,Lee,HR,55000,2018-11-01
+5,Chris,Brown,Finance,60000,2020-05-20

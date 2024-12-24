@@ -1,0 +1,13 @@
+Test Case,Description,Result
+Test Case 1,Column names in the source file,"employee_id, first_name, last_name, department, salary, join_date"
+Test Case 2,Rows x columns in the source file,7 rows x 6 columns
+Test Case 3,Number of non-NA/null entries for each column,"{'employee_id': 7, 'first_name': 7, 'last_name': 7, 'department': 7, 'salary': 7, 'join_date': 6}"
+Test Case 4,Count of duplicate records in the source file,2
+Test Case 5,Duplicate records saved to 'duplicated.csv',2 duplicate records saved
+Test Case 6,NULL values in the 'department' column,0 null rows found
+Test Case 6_a,NULL values in the 'salary' column,0 null rows found
+Test Case 8,Count of unique values in the 'first_name' column,5
+Test Case 9,Count of unique values in the 'department' column,5
+Test Case 10,Count of unique values in the 'salary' column,5
+Test Case 11,Top 5 rows of the dataset,"{'employee_id': {0: 1, 1: 2, 2: 3, 3: 3, 4: 5}, 'first_name': {0: 'John', 1: 'Jane', 2: 'Mike', 3: 'Susan', 4: 'Chris'}, 'last_name': {0: 'Doe', 1: 'Smith', 2: 'Johnson', 3: 'Lee', 4: 'Brown'}, 'department': {0: 'Engineering', 1: 'Marketing', 2: '80000', 3: 'HR', 4: 'Finance'}, 'salary': {0: '75000', 1: '65000', 2: '2021-03-12', 3: '55000', 4: '60000'}, 'join_date': {0: '2020-01-15', 1: '2019-07-10', 2: None, 3: '2018-11-01', 4: '2020-05-20'}}"
+Test Case 12,Bottom 5 rows of the dataset,"{'employee_id': {2: 3, 3: 3, 4: 5, 5: 1, 6: 5}, 'first_name': {2: 'Mike', 3: 'Susan', 4: 'Chris', 5: 'John', 6: 'Chris'}, 'last_name': {2: 'Johnson', 3: 'Lee', 4: 'Brown', 5: 'Doe', 6: 'Brown'}, 'department': {2: '80000', 3: 'HR', 4: 'Finance', 5: 'Engineering', 6: 'Finance'}, 'salary': {2: '2021-03-12', 3: '55000', 4: '60000', 5: '75000', 6: '60000'}, 'join_date': {2: None, 3: '2018-11-01', 4: '2020-05-20', 5: '2020-01-15', 6: '2020-05-20'}}"

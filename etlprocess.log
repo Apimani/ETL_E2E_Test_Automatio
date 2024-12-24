@@ -1,0 +1,24 @@
+2024-12-23 22:25:46,788 - INFO - Extracting data from CSV file...
+2024-12-23 22:25:46,799 - INFO - Extracted 5 rows.
+2024-12-23 22:25:46,799 - INFO - Transforming data...
+2024-12-23 22:25:46,810 - INFO - Transformation complete.
+2024-12-23 22:25:46,810 - INFO - Loading data into MySQL database...
+2024-12-23 22:25:47,039 - INFO - Data successfully loaded into table 'employees_tgt'.
+2024-12-23 22:25:47,039 - INFO - ETL process completed successfully!
+2024-12-23 22:30:43,494 - INFO - Extracting data from CSV file...
+2024-12-23 22:30:43,497 - INFO - Extracted 5 rows.
+2024-12-23 22:30:43,497 - INFO - Transforming data...
+2024-12-23 22:30:43,499 - INFO - Transformation complete.
+2024-12-23 22:30:43,499 - INFO - Loading data into MySQL database...
+2024-12-23 22:30:43,649 - INFO - Data successfully loaded into table 'employees_tgt'.
+2024-12-23 22:30:43,649 - INFO - ETL process completed successfully!
+2024-12-24 14:45:32,739 - INFO - Data fetched successfully from the database.
+2024-12-24 14:45:32,754 - INFO - No null values found in critical columns.
+2024-12-24 14:45:32,754 - INFO - Data type validation passed.
+2024-12-24 14:45:32,762 - INFO - No duplicates found.
+2024-12-24 14:45:32,762 - INFO - Salary range validation passed.
+2024-12-24 14:45:32,762 - INFO - Bonus calculation validation passed.
+2024-12-24 14:45:32,762 - INFO - Department names validation passed.
+2024-12-24 14:45:32,771 - INFO - Join date format validation passed.
+2024-12-24 14:45:32,771 - INFO - Aggregated metrics validation passed.
+2024-12-24 14:45:32,771 - INFO - All validations passed successfully!
